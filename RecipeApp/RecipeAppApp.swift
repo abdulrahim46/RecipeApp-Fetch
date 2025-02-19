@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RecipeAppApp: App {
+    
+    let repository = RecipeRepository(networkService: NetworkService())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView(viewModel: RecipeViewModel(repository: repository))
         }
     }
 }
