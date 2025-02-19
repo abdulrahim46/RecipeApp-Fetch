@@ -105,3 +105,8 @@ Key Trade-offs:
 
 📸 Screenshots
 
+<p float="left"> 
+<img src="/Demo/demo1.png" width="100">
+<img src="/Demo/demo2.png" width="100">
+<img src="/Demo/demo3.png" width="100">
+</p>
